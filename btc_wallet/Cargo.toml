@@ -1,0 +1,11 @@
+[package]
+name = "btc_wallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bs58 = "0.4.0"
+hex="0.4.3"
+rand = {version = "0.6.5", features = ["std"]}
+rust-crypto = "^0.2"
+secp256k1 = { version = "0.20.3", features = ["rand"] }
